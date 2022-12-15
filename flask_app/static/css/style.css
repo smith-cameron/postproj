@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    width: 100%;
+    height:100vh;
+}
+#wrapper{
+    margin: 0px auto;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(92,97,176);
+    background: radial-gradient(circle, rgba(92,97,176,1) 0%, rgba(40,46,91,1) 84%);
+    color: blanchedalmond;
+}
+.subHead{
+    text-align: center;
+    text-decoration: underline;
+    color:coral;
+    margin-bottom: 15px;
+}
+li{
+    list-style-type: none;
+    vertical-align: top;
+}
+.navLink{
+    color: coral;
+}
+/* ------- index.html ------- */
+#title{
+    text-decoration: overline underline;
+    padding-top: .8%;
+    color:coral;
+    text-align: center;
+    font-size: 100px;
+}
+#regForm{
+    display: inline-block;
+    width: fit-content;
+    text-align: right;
+    vertical-align: top;
+    margin: 8% 150px 0px 28%;
+}
+.error{
+    color: crimson;
+    text-align: center;
+}
+#loginForm{
+    display: inline-block;
+    width: fit-content;
+    text-align: right;
+    vertical-align: top;
+    margin-top: 8%;
+}
+.formInput{
+    margin-bottom: 10px;
+}
+.formButton{
+    margin: 0 50% 10px 0;
+    padding: 2px 3px;
+}
+/* ------- dashboard.html ------- */
+header{
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+    border-bottom: thin solid black;
+    justify-content: space-evenly;
+}
+#displayTable{
+    display: block;
+    margin: 20px auto;
+    width: 750px;
+    border-collapse: collapse;
+}
+.tableData{
+    padding: 8px 10px;
+    text-align: center;
+}
